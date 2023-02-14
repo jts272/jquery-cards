@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Table</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/my-script.js"></script>
+    <style>
+      /* Create an `.underline` class for use in jQuery */
+      .underline {
+        text-decoration: underline;
+      }
+
+      /* Create a `.border` class for use in jQuery */
+      .border {
+        border: solid 2px #ccc;
+      }
+
+      td,
+      th {
+        width: 5rem;
+        height: 2rem;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+      th {
+        background: lightblue;
+        border-color: white;
+      }
+      body {
+        padding: 1rem;
+        font-family: Roboto;
+      }
+      .odd {
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test">
+      <h2>Test Heading!</h2>
+    </div>
+    <div class="test-list">
+      <ul>
+        <li>Item 1!</li>
+        <li>Item 2!</li>
+      </ul>
+    </div>
+    <table>
+      <tr>
+        <th></th>
+        <th>Country</th>
+        <th>Price</th>
+        <th>Nutrition</th>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <th>Spinach</th>
+        <td>America</td>
+        <td>28</td>
+        <td>90</td>
+        <td>Veg</td>
+      </tr>
+      <tr>
+        <th>Carrots</th>
+        <td>France</td>
+        <td>56</td>
+        <td>75</td>
+        <td>Veg</td>
+      </tr>
+    </table>
+  </body>
+</html>
